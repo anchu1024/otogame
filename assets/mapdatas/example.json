@@ -1,0 +1,15 @@
+// This is the template of mapdata
+{
+  "header": {
+    "lane": 4,
+    "bpm": [
+      {"tempo": 120, "length": 100},
+      {"tempo": 80} // no-length means the bpm lasts the end
+    ]
+  },
+  "body": [
+    { "beat": 4, "type": "note", "lane": 0, "fx": "none" },
+    { "beat": 4, "type": "note", "lane": 1, "fx": "none" },
+    { "beat": 5, "type": "note", "lane": 3, "fx": "none" }
+  ]
+}
