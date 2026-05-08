@@ -1,6 +1,8 @@
 // This is the template of mapdata
 {
   "header": {
+    "name": "example-map",
+    "author": "anchu",
     "lane": 4,
     "bpm": [
       {"tempo": 120, "length": 100},
